@@ -346,7 +346,7 @@ class Calendar extends Component {
     weekDaysNames.forEach((day, index) => {
       week.push(
         <View style={{flex: 1, alignItems: 'center',marginVertical:10}} key={index}>
-          <Text style={{fontSize:25}}>
+          <Text style={{fontSize:this.props.theme.textDayHeaderFontSize}}>
             {day}
           </Text>
         </View>
